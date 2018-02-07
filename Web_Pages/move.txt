@@ -1,0 +1,20 @@
+<html>
+  <head >
+   <script language="javascript">
+    function move()
+     {
+       T = document.getElementById("T1").value;
+       L = document.getElementById("T2").value;
+      sty=document.getElementById("img1").style;
+      sty.top=T;
+      sty.left=L;
+     }
+</script>
+</head>
+ <body>
+     <img id="img1" src="img1.jpeg" style="position:absolute ;top:100;left:100"/>
+        top<input type="text" id="T1"/>
+        left<input type="text" id="T2"/>
+         <input type="button" value="move it" onclick="move()"/>
+     </body>
+</html>

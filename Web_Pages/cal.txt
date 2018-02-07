@@ -1,0 +1,45 @@
+<html>
+ <head>
+  <script>
+   function add()
+   {
+    var t1=document.getElementById("m").value-0
+    var t2=document.getElementById("n").value-0
+    var r=t1+t2
+    document.getElementById("o").value=r
+   }
+   function sub()
+   {
+    var t1=document.getElementById("m").value-0
+    var t2=document.getElementById("n").value-0
+    var r=t1-t2
+    document.getElementById("o").value=r
+   }
+   function mul()
+   {
+    var t1=document.getElementById("m").value-0
+    var t2=document.getElementById("n").value-0
+    var r=t1*t2
+    document.getElementById("o").value=r
+   }
+   function div()
+   {
+    var t1=document.getElementById("m").value-0
+    var t2=document.getElementById("n").value-0
+    var r=t1/t2
+    document.getElementById("o").value=r
+   }
+  </script>
+ </head>
+ <body>
+ <pre>
+ <input type="text" id="m">
+ <input type="text" id="n">
+ <input type="text" id="o">
+ <input type="Button" Onclick="add()" Value="+"> 
+ <input type="Button" Onclick="sub()" Value="-"> 
+ <input type="Button" Onclick="mul()" Value="*"> 
+ <input type="Button" Onclick="div()" Value="/"> 
+ </pre>
+ </body>
+</html>

@@ -1,0 +1,13 @@
+<html>
+<frameset rows="10%,*">
+<frame src=" "/>
+<frameset cols="30%,*">
+<frame src="index2.html" name="frame1" />
+<frameset rows="33%,34%,*">
+<frame src=" " name="frame2"/>
+<frame src=" " name="frame3"/>
+<frame src=" " name="frame4"/>
+</frameset>
+</frameset>
+</frameset>
+</html>

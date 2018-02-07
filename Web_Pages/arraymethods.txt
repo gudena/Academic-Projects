@@ -1,0 +1,17 @@
+<html>
+<head>
+<script language="javascript">
+var a=Array("ab","xy","ef");
+str1=a.join("*");
+document.write(str1);
+str2=a.reverse();
+document.write("<br/>",str2);
+str3=a.sort();
+document.write("<br/>",str3);
+str4=a.concat("abc","bcd");
+document.write("<br/>",str4);
+str5=a.slice(1,2);
+document.write("<br/>",str5);
+</script>
+</head>
+</html>

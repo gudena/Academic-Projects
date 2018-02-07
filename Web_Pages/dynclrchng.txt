@@ -1,0 +1,16 @@
+<html>
+ <script>
+   function clr(x)
+   {
+    if(x=="a")
+    document.getElementById("T1").style.color='blue'
+    else
+    document.getElementById("T2").style.color='green'
+   }
+ </script>
+ <body>
+  <h1 id="T1" onmouseover="clr('a')">HOVER </h1>
+  <h1 id="T2" onmouseover="clr('b')">HOVER2</h1>
+ </body>
+</html>
+  

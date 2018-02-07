@@ -1,0 +1,23 @@
+<html>
+ <head>
+  <script>
+   var brdsize;
+   brdsize=prompt("select a table border size \n"+
+                  "0(no border) \n"+"1(1 pixel border) \n"+
+                  "4(4 pixel border)\n"+"8(8 pixel border)\n");
+   switch(brdsize){case "0":document.write("<table>");
+                   break;
+                   case "1":document.write("<table border='1'>");
+                   break;
+		   case "4":document.write("<table border='4'>");
+                   break;
+		   case "8":document.write("<table border='8'>");
+                   break;
+		   default:document.write("Invalid choice");}
+   document.write("<tr>","<th> Fruits </th>",
+                  "<th> Vegetables </th>","</tr>",
+                  "<tr>","<td>Mango</td>","<td>Potato</td>","</tr>");
+  </script>
+ </head>
+</html>
+

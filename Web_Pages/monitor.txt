@@ -1,0 +1,14 @@
+<html>
+<body>
+<h1>monitor</h1>
+<p>
+A monitor or a display (also called screen or visual display unit) is an 
+electronic visual display for computers. The monitor comprises the 
+display device, circuitry and an enclosure. The display device in modern 
+monitors is typically a thin film transistor liquid crystal display (TFT-LCD) thin panel, 
+while older monitors use a cathode ray tube (CRT) about as deep as the screen size.
+</p>
+<img src="e:/programs/monitor.jpeg" height="300" width="300"/>
+<a href="index.html" target="_blank">index</a>
+</body>
+</html>

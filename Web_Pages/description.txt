@@ -1,0 +1,69 @@
+<html>
+<body>
+  <h1> PARTS OF A COMPUTER </h1>
+  
+  <h2>1.input</h2>
+  
+  <h3>1.1 keyboard</h3>
+  <p>
+  In computing, a keyboard is a 
+  typewriter-style device, which uses an 
+  arrangement of buttons or keys, to act as 
+  mechanical levers or electronic switches. 
+  </p>
+  <img src="d:/keyboard.jpeg" height="100" width="100"/>
+  <h3>1.2 mouse</h3>
+  <p>
+  In computing, a mouse is a pointing device 
+  that functions by detecting two-dimensional 
+  motion relative to its supporting surface. 
+  Physically, a mouse consists of an object 
+  held under one of the user's hands, with one or more buttons.
+  </p>
+  <img src="d:/mouse.jpeg" height="100" width="100"/>
+  
+  <h2>2.output</h2>
+  
+  <h3>2.1 monitor</h3>
+  <p>
+  A monitor or a display (also called screen or visual display unit) 
+  is an electronic visual display for computers. 
+  The monitor comprises the display device, circuitry and an enclosure. 
+  The display device in modern monitors is 
+  typically a thin film transistor liquid crystal display (TFT-LCD) 
+  thin panel, while older monitors use a cathode ray tube (CRT) 
+  about as deep as the screen size.
+  </p>
+  <img src="d:/monitor.jpeg" height="100" width="100"/>
+  <h3>2.2 printer</h3>
+  <p>
+  In computing, a printer is a peripheral which produces a 
+  representation of an electronic document on physical media 
+  such as paper or transparency film. Many printers are local 
+  peripherals connected directly to a nearby personal computer.
+  </p>
+  <img src="d:/printer.jpeg" height="100" width="100"/>
+  
+  
+  <h2>3.processing elements</h2>
+  
+  <h3>3.1 RAM</h3>
+  <p>
+  Random-access memory (RAM) is a form of computer data storage. 
+  A random-access device allows stored data to be accessed in very 
+  nearly the same amount of time for any storage location, so data 
+  can be accessed quickly in any random order.
+  </p>
+  <img src="d:/ram.jpeg" height="100" width="100"/>
+  <h3>3.2 mother board</h3>
+  <p>
+   A motherboard (sometimes alternatively known as the mainboard, system board, 
+   planar board or logic board,[1] or colloquially, a mobo) is a printed circuit 
+   board (PCB) found in all modern computers which holds many of the crucial components 
+   of the system, such as the central processing unit (CPU) 
+   and memory, and provides connectors for other peripherals.
+  </p>
+   <img src="d:/motherboard.jpeg" height="100" width="100"/>  I
+  
+  </body>
+  </html>

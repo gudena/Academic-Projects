@@ -1,0 +1,58 @@
+<html>
+<head>
+<script language="javascript" type="text/javascript">
+f=0;f1=0;
+function Display()
+{
+if(f==0)
+{
+  f=1;
+  document.getElementById("img1").style.visibility="hidden";
+  document.getElementById("pr1").style.visibility="visible";
+}
+else
+{
+  f=0;
+  document.getElementById("img1").style.visibility="visible";
+  document.getElementById("pr1").style.visibility="hidden";
+}
+}
+function Display1()
+{
+if(f1==0)
+{
+  f1=1;
+  document.getElementById("img2").style.visibility="hidden";
+  st=document.getElementById("pr2").style;
+  st.visibility="visible";
+  st.top="600";
+}
+else
+{
+  f1=0;
+  document.getElementById("img2").style.visibility="visible";
+  document.getElementById("pr2").style.visibility="hidden";
+}
+}
+</script>
+</head>
+<body>
+<img src="iphone.jpg" id="img1" width="400" height="400" style="position:absolute;visibility:visible" onClick="Display()" />
+<pre id="pr1" style="visibility:hidden" onClick="Display()">The iPhone 5 is a touchscreen-based smartphone developed by Apple Inc..
+It is the sixth generation of the iPhone and succeeds the iPhone 4S. 
+The phone is a slimmer, lighter model that introduces a higher-resolution,
+4-inch screen to the series with 16:9 widescreen aspect ratio.
+The phone also includes a custom-designed ARMv7 processor called the Apple A6, 
+an update to Apple's mobile operating system known as iOS 6, and support for LTE.
+
+Apple held an event to formally introduce the phone on September 12, 2012. 
+Apple began taking pre-orders on September 14, 2012 and over two million were 
+received within 24 hours. Initial demand for the iPhone 5 exceeded the supply 
+available at launch on September 21, 2012, and has been described by Apple as 
+"extraordinary", with pre-orders having sold twenty times faster than its predecessors. 
+After the launch of the device, Samsung filed a lawsuit against Apple, 
+claiming that the iPhone 5 infringes eight of its patents.</pre>
+<img src="galaxy.jpg" id="img2" width="400" height="400" style="position:absolute;top:600;visibility:visible" onClick="Display1()" />
+<pre id="pr2" style="visibility:hidden;top:600" onClick="Display1()">galaxy note2</pre>
+</body>
+</html>

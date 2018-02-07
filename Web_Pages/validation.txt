@@ -1,0 +1,22 @@
+<! DOCTYPE html>
+<html>
+<head>
+<script language="javascript" type="text/javascript">
+function valid()
+{
+   str=document.getElementById("text1").value;
+if(str.search(/^[A-Z].[a-z]+$/)>=0)
+   alert("correct match");
+else
+   alert("wrong match");
+}
+</script>
+</head>
+<body>
+<form>
+ name:<input type="text" id="text1"/>
+ <input type="button" value="validate" onclick="valid()"/>
+ <input type="reset"/>
+</form>
+</body>
+</html>

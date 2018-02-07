@@ -1,0 +1,12 @@
+<html>
+<body>
+<h1>RAM</h1>
+<p >
+Random-access memory (RAM) is a form of computer data storage. 
+A random-access device allows stored data to be accessed in very nearly the same amount 
+of time for any storage location, so data can be accessed quickly in any random order.
+</p>
+<img src="e:/programs/ram.jpeg" height="300" width="300"/>
+<a href="index.html" target="_blank">index</a>
+</body>
+</html>

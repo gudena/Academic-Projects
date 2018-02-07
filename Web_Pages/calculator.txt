@@ -1,0 +1,44 @@
+<html>
+<head>
+<script language="javascript" type="text/javascript">
+function sum()
+{
+  a1=parseInt(document.getElementById("a").value);
+  b1=parseInt(document.getElementById("b").value);
+  c=a1+b1;
+  document.getElementById("ans").value = c;
+}
+function minus() 
+{
+  a1=parseInt(document.getElementById("a").value);
+  b1=parseInt(document.getElementById("b").value);
+  c=a1-b1;
+  document.getElementById("ans").value=c;
+}
+function product() 
+{
+  a1=parseInt(document.getElementById("a").value);
+  b1=parseInt(document.getElementById("b").value);
+  c=a1*b1;
+  document.getElementById("ans").value=c;
+}
+function div() 
+{
+  a1=parseInt(document.getElementById("a").value);
+  b1=parseInt(document.getElementById("b").value);
+  c=a1/b1;
+  document.getElementById("ans").value = c;
+}
+</script>
+</head>
+<body>
+<form>
+<input type="text" id="a">
+<input type="text" id="b">
+<input type="button" value="  +  " onClick="sum()"> 
+<input type="button" value="  -  " onClick="minus()"> 
+<input type="button" value="  x  " onClick="product()"> 
+<input type="button" value="  /  " onClick="div()"> 
+<input type="text" id="ans">
+</form>
+</body>

@@ -1,0 +1,16 @@
+<html>
+<head><title>cars!!!</title>
+<script type="text/javascript"  src="car.js">
+</script>
+<style type="text/css">
+.car1{ position:absolute;top:0;left:0;z-index:0;}
+.car2{ position:absolute;top:50;left:110;z-index:0;}
+.car3{ position:absolute;top:100;left:220;z-index:0;}
+</style>
+</head>
+<body>
+<img class="car1" id="c1" src="apple.jpeg" onclick="clickElement('c1')" />
+<img class="car2" id="c2" src="wi.jpeg" onclick="clickElement('c2')" />
+<img class="car3" id="c3" src="ub.jpeg" onclick="clickElement('c3')" />
+</body>
+</html>

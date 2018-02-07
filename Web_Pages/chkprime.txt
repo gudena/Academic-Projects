@@ -1,0 +1,19 @@
+<html>
+ <head>
+  <script>
+   var inpno;
+   var flag=0;
+   inpno=prompt("Enter the no. to be verified")-0;
+   for(i=inpno-1;i>1;i--)
+   {
+    if(inpno%i==0)
+     flag=1;
+   }
+   if(flag==1)
+    alert("Not Prime");
+   else
+    alert("Prime");
+  </script>
+ </head>
+</html>
+

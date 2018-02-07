@@ -1,0 +1,6 @@
+ <!DOCTYPE html>
+<html>
+<body>
+<h1 onclick="this.innerHTML='welcome to lab'">Click here to enter</h1>
+</body>
+</html> 

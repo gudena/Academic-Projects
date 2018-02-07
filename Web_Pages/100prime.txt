@@ -1,0 +1,20 @@
+<html>
+ <head>
+  <script>
+   var flag=0;
+   for(no=40-0;no<100;no++)
+   {
+    for(i=no-1-0;i>1;i--)
+    {
+     if(no%i==0)
+      flag=1;
+    }
+    if(flag==0)
+    {
+     document.write(no+"<br/>");
+    }   
+   }
+  </script>
+ </head>
+</html>
+

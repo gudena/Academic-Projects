@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <script>
+      var s="WElcoMe To b4 Lab !!";
+      document.writeln("given string:",s,"</br>");
+      document.writeln("length:",s.length,"</br>");
+      document.writeln("char at 9:",s.charAt(9),"</br>");
+      document.writeln("index of 'c':",s.indexOf('c'),"</br>");
+      document.writeln("sub string (1,5):",s.substring(1,5),"</br>");
+      document.writeln("to lower case:",s.toLowerCase(),"</br>");
+      document.writeln("to upper case:",s.toUpperCase(),"</br>");
+   </script>
+  </head>
+  <body>
+  </body>
+</html>

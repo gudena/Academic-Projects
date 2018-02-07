@@ -1,0 +1,12 @@
+<html>
+<body>
+<h1>printer</h1>
+<p >
+In computing, a printer is a peripheral which produces a representation of 
+an electronic document on physical media such as paper or transparency film. Many printers 
+are local peripherals connected directly to a nearby personal computer.
+</p>
+<img src="e:/programs/printer.jpeg" height="300" width="300"/>
+<a href="index.html" target="_blank">index</a>
+</body>
+</html>

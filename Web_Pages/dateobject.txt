@@ -1,0 +1,25 @@
+<html>
+<head>
+<script language="javascript">
+var d=new Date();
+var d1=d.getDate();
+document.write("date: ",d1);
+var d2=d.getMonth();
+document.write("<br/>month: ",d2);
+var d3=d.getDay();
+document.write("<br/>day: ",d3);
+var d4=d.getFullYear();
+document.write("<br/>fullyear: ",d4);
+var d5=d.getTime();
+document.write("<br/>time: ",d5);
+var d6=d.getMinutes();
+document.write("<br/>minutes: ",d6);
+var d7=d.getSeconds();
+document.write("<br/>seconds: ",d2);
+var d8=d.getMonth();
+document.write("<br/>hour: ",d2);
+</script>
+</head>
+<body>
+</body>
+</html>

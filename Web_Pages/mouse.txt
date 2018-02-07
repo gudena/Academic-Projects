@@ -1,0 +1,13 @@
+<html>
+<body>
+<h1>mouse</h1>
+<p>
+  In computing, a mouse is a pointing device that functions 
+  by detecting two-dimensional motion relative to its 
+  supporting surface. Physically, a mouse consists of an 
+  object held under one of the user's hands, with one or more buttons.
+</p>
+<img src="e:/programs/mouse.jpeg" height="300" width="300"/>
+<a href="index.html" target="_blank">index</a>
+</body>
+</html>

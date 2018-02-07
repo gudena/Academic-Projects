@@ -1,0 +1,29 @@
+<html>
+ <head>
+  <style>
+   .T1{position: absolute;top: 0;left: 0;z-index: 0}
+   .T2{position: absolute;top: 50;left: 110;z-index: 0}
+   .T3{position: absolute;top: 100;left: 220;z-index: 0}
+  </style>
+  <script>
+  function ttop(nt)
+  {
+   dtop=document.getElementById("p1").style
+   dnew=document.getElementById(nt).style
+   dtop.zIndex="0"
+   dnew.zIndex="10"
+   top=nt
+  }
+  function def(nto)
+  {
+   dtop=document.getElementById(nto).style
+   dtop.zIndex="0"
+  }
+ </script>
+ </head>
+ <body>
+  <img src="ub.jpeg" id="p1" class="T1" onmouseover="ttop('p1')" onmouseout="def('p1')">
+  <img src="wi.jpeg" id="p2" class="T2" onmouseover="ttop('p2')" onmouseout="def('p2')">
+  <img src="ma.jpeg" id="p3" class="T3" onmouseover="ttop('p3')" onmouseout="def('p3')">
+ </body>
+</html>	

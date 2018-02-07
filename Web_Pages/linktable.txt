@@ -1,0 +1,55 @@
+<html>
+<body>
+<table border=1>
+<tr>
+<th colspan="4">GITAM CSE DEPT</th>
+</tr>
+<tr >
+<td rowspan="7" valign=''top''>
+<pre>
+c
+a
+t
+a
+l
+o
+g
+</pre>
+</td>
+<td><b>parts of computer</b></td>
+<td><b>quantity</b></td>
+<td><b>estimated cost</b></td>
+</tr>
+<tr>
+<td><a href="keyboard.html" target="_blank">keyboard</a></td>
+<td>4</td>
+<td>1000</td>
+</tr>
+<tr>
+<td><a href="mouse.html" target="_blank">mouse</td>
+<td>5</td>
+<td>900</td>
+</tr>
+<tr>
+<td><a href="monitor.html" target="_blank">monitor</td>
+<td>2</td>
+<td>10000</td>
+</tr>
+<tr>
+<td><a href="printer.html" target="_blank">printer</td>
+<td>3</td>
+<td>2000</td>
+</tr>
+<tr>
+<td><a href="ram.html" target="_blank">ram</td>
+<td>5</td>
+<td>15000</td>
+</tr>
+<tr>
+<td><a href="motherboard.html" target="_blank">motherboard</td>
+<td>2</td>
+<td>1500</td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<html>
+ <script>
+   function vis(x)
+   {
+    if(x=="a")
+    document.getElementById("T1").style.visibility='visible'
+    else
+    document.getElementById("T2").style.visibility='hidden'
+   }
+   function vis2(x)
+   {
+    if(x=="a")
+    document.getElementById("T1").style.visibility='hidden'
+    else
+    document.getElementById("T2").style.visibility='visible'
+   }
+   function vis3()
+   {
+    document.getElementById("T1").style.visibility='visible'
+    document.getElementById("T2").style.visibility='visible'
+   }
+ </script>
+ <body onclick="vis3()"><pre>
+  <img src="ub.jpeg" id="T1" onmouseover="vis('a')" style="visibility:hidden" onmouseout="vis2('a')">
+  <img src="wi.jpeg" id="T2" onmouseover="vis('b')" style="visibility:visible" onmouseout="vis2('b')">
+ </pre></body>
+</html>	

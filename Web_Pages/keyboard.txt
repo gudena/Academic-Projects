@@ -1,0 +1,12 @@
+<html>
+<body>
+<h1>keyboard</h1>
+<p>
+ In computing, a keyboard is a typewriter-style device, which 
+ uses an arrangement of buttons or keys, to act as 
+ mechanical levers or electronic switches.
+</p>
+<img src="e:/programs/keyboard.jpeg" height="300" width="300"/>
+<a href="index.html" target="_blank">index</a>
+</body>
+</html>

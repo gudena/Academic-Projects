@@ -1,0 +1,6 @@
+<html>
+<frameset rows="50%,*">
+<frame src="description.html"/>
+<frame src="www.gitam.edu"/>
+</framset>
+</html>

@@ -1,0 +1,18 @@
+<html>
+ <head>
+  <script>
+    var i=prompt("enter limit");
+    var spc=" ";
+    for(j=1;j<=i;j++)
+    {
+     for(k=i-j;k>0;k--)
+     {
+      document.write("&nbsp&nbsp");
+     }
+     for(x=j;x>0;x--)
+      document.write(j);
+     document.write("<br/>");
+    }
+  </script>
+ </head>
+</html>

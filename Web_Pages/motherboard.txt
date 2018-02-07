@@ -1,0 +1,13 @@
+<html>
+<body>
+<h1>mother board</h1>
+<p>
+A motherboard (sometimes alternatively known as the mainboard, system board, 
+planar board or logic board,[1] or colloquially, a mobo) is a printed circuit board (PCB) 
+found in all modern computers which holds many of the crucial components of the system, 
+such as the central processing unit (CPU) and memory, and provides connectors for other peripherals.
+</p>
+<img src="e:/programs/motherboard.jpeg" height="300" width="300"/>
+<a href="index.html" target="_blank">index</a>
+</body>
+</html>

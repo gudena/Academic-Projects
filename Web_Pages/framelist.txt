@@ -1,0 +1,6 @@
+<html>
+<frameset cols="40%,*">
+<frame src="comp_parts_list.html"/>
+<frame src="description.html"/>
+</frameset>
+</html>

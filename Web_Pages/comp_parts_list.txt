@@ -1,0 +1,22 @@
+<html>
+<body>
+  <h1> COMPUTER PARTS </h1>
+  <ol>
+  <li>input</li>
+  <ul>
+  <li>keyboard</li>
+  <li>mouse</li>
+  </ul>
+  <li>output</li>
+  <ul>
+   <li>monitor</li>
+   <li>printer</li>
+  </ul>
+  <li>processing elements</li>
+  <ul>
+  <li>RAM</li>
+  <li>mother board</li>
+  </ul>
+  </ol>
+</body>
+</html>

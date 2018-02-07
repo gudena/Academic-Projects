@@ -1,0 +1,43 @@
+<html>
+<head>
+<script language="javascript"
+	type="text/javascript" >
+
+function show(pic){ document.getElementById(pic).style.visibility="hidden";
+if(pic=="pic1") {document.getElementById("p1").style.visibility="visible";}
+if(pic=="pic2") {document.getElementById("p2").style.visibility="visible";}
+if(pic=="pic3") {document.getElementById("p3").style.visibility="visible";}
+} function hide(pic){ document.getElementById(pic).style.visibility="visible";
+if(pic=="pic1") {document.getElementById("p1").style.visibility="hidden";}
+if(pic=="pic2") {document.getElementById("p2").style.visibility="hidden";}
+if(pic=="pic3") {document.getElementById("p3").style.visibility="hidden";}
+} 
+</script>
+</head>
+
+<body>
+<img src="img1.jpg"
+height=300 width=300 alt="no img" id="pic1" onmouseover=show("pic1")  onmouseout=hide("pic1") style="position:absolute;top:100;left:100"/>
+
+<img src="img2.jpg" height=300 width=300 alt="no img" id="pic2" onmouseover=show("pic2") onmouseout=hide("pic2") style="position:absolute;top:200;left:200"/>
+
+<img src="img3.jpg" height=300 width=300 alt="no img" id="pic3" onmouseover=show("pic3")
+onmouseout=hide("pic3") style="position:absolute;top:300;left:300"/>
+
+
+
+<p id="p1"  style="position:relative;top:100;left:100;visibility:hidden">
+The mango is a fleshy stone fruit belonging to the genus Mangifera, consisting of numerous tropical fruiting trees in the flowering plant family Anacardiaceae. The mango is native to South Asia, from where it has been distributed worldwide to become one of the most cultivated fruits in the tropics.
+</p>
+
+
+<p id="p2"   style="position:relative;top:200;left:200;visibility:hidden">
+The apple is the pomaceous fruit of the apple tree, species Malus domestica in the rose family (Rosaceae). It is one of the most widely cultivated tree fruits, and the most widely known of the many members of genus Malus that are used by humans.
+</p>
+
+
+<p id="p3"  style="position:relative; top:400; left:400 ;visibility:hidden">
+The kiwifruit, often shortened to kiwi in many parts of the world, is the edible berry of a woody vine in the genus Actinidia.[1]The most common cultivar group of kiwifruit ('Hayward') is oval, about the size of a large hen's egg (5–8 centimetres (2.0–3.1 in) in length and 4.5–5.5 centimetres (1.8–2.2 in) in diameter)
+</p>
+
+

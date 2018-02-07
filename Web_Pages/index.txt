@@ -1,0 +1,23 @@
+<html>
+<body>
+<h1>parts of  a computer</h1>
+<h2>index</h2>
+<ol>
+<li>input</li>
+<ul>
+<li><a href="keyboard.html" target="_blank">keyboard</a></li>
+<li><a href="mouse.html" target="_blank">mouse</a></li>
+</ul>
+<li>output</li>
+<ul>
+<li><a href="monitor.html" target="_blank">monitor</a></li>
+<li><a href="printer.html" target="_blank">printer</a></li>
+</ul>
+<li>processing elements</li>
+<ul>
+<li><a href="ram.html" target="_blank">ram</a></li>
+<li><a href="motherboard.html" target="_blank">mother board</a></li>
+</ul>
+</ol>
+</body>
+</html>
