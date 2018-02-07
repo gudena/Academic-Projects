@@ -1,5 +1,0 @@
-progol <<% > animals.out
-[animals]?
-generalise(class/2)?
-test(anim_test)?
-%
